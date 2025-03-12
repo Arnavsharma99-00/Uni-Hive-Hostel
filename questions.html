@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uni Hive Hostel & PG FAQ</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #002855;
+            color: white;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            width: 80%;
+            margin: auto;
+            padding: 20px 0;
+        }
+
+        h2 {
+            text-align: center;
+            margin-bottom: 20px;
+            font-size: 24px;
+        }
+
+        .faq {
+            background-color: #003366;
+            padding: 20px;
+            border-radius: 5px;
+            margin-bottom: 15px;
+        }
+
+        .faq h3 {
+            cursor: pointer;
+            font-size: 18px;
+            margin: 0;
+            padding: 10px;
+            background-color: #004080;
+            border-radius: 5px;
+        }
+
+        .faq p {
+            display: none;
+            padding: 10px;
+            margin: 0;
+        }
+
+        .faq.active p {
+            display: block;
+        }
+
+        .experience {
+            text-align: center;
+            padding: 30px;
+            background-color: #001a40;
+            margin-top: 20px;
+        }
+
+        .experience p {
+            font-size: 16px;
+            width: 60%;
+            margin: auto;
+        }
+
+        .faq h3:hover {
+            background-color: #0055aa;
+        }
+    #navbar{
+    height: 60px;
+    background-color:#859184;
+    
+}
+#logo{
+    font-size: 30px;
+    
+}
+a{
+    margin-right: 200px;
+    font-size: 30px;
+}
+
+    </style>
+    <script>
+        function toggleFAQ(element) {
+            element.parentElement.classList.toggle("active");
+        }
+    </script>
+</head>
+<body>
+    <div id="navbar">
+        <a href="index.html" id="logo">Uni hive.in</a>
+        <a href="stay.html">Stay</a>
+        <a href="questions.html" >Queries</a>
+        <a href="contactinfo.html">Contact us</a>
+    </div>
+
+    <div class="container">
+        <h2>Your Questions, Our Answers</h2>
+        
+        <div class="faq">
+            <h3 onclick="toggleFAQ(this)">What amenities does Uni Hive Hostel & PG offer?</h3>
+            <p>Uni Hive Hostel & PG offers Wi-Fi, laundry facilities, a common kitchen, and 24/7 security for all residents.</p>
+        </div>
+
+        <div class="faq">
+            <h3 onclick="toggleFAQ(this)">How can I book a room at Uni Hive Hostel & PG?</h3>
+            <p>You can book a room by contacting us via our website or visiting our location directly in Pipaliya.</p>
+        </div>
+
+        <div class="faq">
+            <h3 onclick="toggleFAQ(this)">Are meals included in the accommodation package at Uni Hive Hostel & PG?</h3>
+            <p>Yes, we provide three nutritious meals a day as part of the accommodation package at Uni Hive Hostel & PG.</p>
+        </div>
+
+        <div class="faq">
+            <h3 onclick="toggleFAQ(this)">Is there parking available for residents at Uni Hive Hostel & PG?</h3>
+            <p>Yes, we offer parking facilities for residents with vehicles at our Pipaliya location.</p>
+        </div>
+    </div>
+
+    <div class="experience">
+        <h2>Experience Comfortable Living</h2>
+        <p>Discover our premium hostel and PG accommodations tailored for students and professionals in Pipaliya. Enjoy modern amenities, secure premises, and a welcoming community at Uni Hive.</p>
+    </div>
+</body>
+</html>

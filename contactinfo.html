@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Hostel</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color:#002855;
+        }
+        header {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+        }
+        .contact-container {
+            display: flex;
+            justify-content: space-around;
+            align-items: flex-start;
+            padding: 20px;
+        }
+        .contact-info, .contact-form {
+            background:#606978;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 45%;
+        }
+        .contact-form form {
+            display: flex;
+            flex-direction: column;
+        }
+        .contact-form input, .contact-form textarea {
+            margin: 10px 0;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            width: 100%;
+        }
+        .contact-form button {
+            background: #333;
+            color: white;
+            padding: 10px;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        .contact-form button:hover {
+            background: #555;
+        }
+        .map-container {
+            text-align: center;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+        h2{
+            color: white;
+        }
+    #navbar{
+    height: 60px;
+    background-color:#859184;
+    
+}
+#logo{
+    font-size: 30px;
+    
+}
+a{
+    margin-right: 200px;
+    font-size: 30px;
+}
+    </style>
+</head>
+<body>
+    <div id="navbar">
+        <a href="index.html" id="logo">Uni hive.in</a>
+        <a href="stay.html">Stay</a>
+        <a href="questions.html" >Queries</a>
+        <a href="contactinfo.html">Contact us</a>
+    </div>
+
+    <header>
+        <h1>Contact Us</h1>
+    </header>
+    
+    <section class="contact-container">
+        <div class="contact-info">
+            <h2>Get in Touch</h2>
+            <p>We'd love to hear from you! Reach out to us using the details below.</p>
+            <p><strong>Address:</strong>Uni Hive Hostel and PG near Swaminarayan Temple,Pipaliya.</p>
+            <p><strong>Email:</strong>unihivehostel@gmail.com </p>
+            <p><strong>Phone:</strong> +91 95586 52502</p>
+        </div>
+        
+        <div class="contact-form">
+            <h2>Send Us a Message</h2>
+            <form action="#" method="POST">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+    
+    <section class="map-container">
+        <h2>Our Location</h2>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3691.715790689266!2d73.32354977427806!3d22.28875334331583!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395fdb0025f82d73%3A0xfb6a5877e2cf1867!2sUni%20Hive%20Hostels%20AND%20PG!5e0!3m2!1sen!2sin!4v1741756001623!5m2!1sen!2sin" width="1200" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+</body>
+</html>
